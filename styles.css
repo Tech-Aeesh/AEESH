@@ -1,0 +1,125 @@
+/* ========== */
+/* Global styles */
+/* ========== */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    text-transform: capitalize;
+  }
+  a {
+    text-decoration: none;
+    text-transform: capitalize;
+    
+  }    
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 0.875rem;
+  }
+  p {
+    font-size: 1.2rem;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  }
+
+  /* ======= */
+  /* hero-banner */
+  /* =========== */
+   /* @media screen and (min-width:280px) { */
+     .hero-banner {
+       display: flex;
+       margin: 0 auto;
+       margin-right: 20rem;
+       margin-left: 15rem;
+       justify-content: space-between;
+       align-items: center;
+     
+     }
+     .hero-list {
+       display: flex;
+       font-size: 1.5rem;
+       margin-right: 0.7rem;
+     }
+     .hero-list li {
+      padding-left: 2rem;
+     }
+     .hero-banner a {
+       background-color: white;
+       padding-right: 5rem;
+       color: black;
+     }
+     .btn {
+       padding: 2rem;
+       border: 2px solid transparent;
+       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
+     }
+   
+     .hero-abt {
+       display: flex;
+       background-image: url(./image\ 2.jpeg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       min-height: 60vh; 
+       margin-left: 15rem;
+       margin-right: 20rem;
+       margin-top: 2rem;
+       font-size: 2rem;
+       text-align: left;
+       padding-left: 3rem;
+       padding-top: 3rem;
+     }
+     .nav-list {
+     justify-content: center;
+     flex: 0 0 calc(20% - 2rem);
+   
+     }
+     .scroll-btn {
+       color: white;
+       background-color: navajowhite;
+       padding: 1rem;
+       padding-right: 2rem;
+       border-radius: 0.5rem;
+   
+     }
+     .nav-list P {
+       margin-bottom: 3rem;
+     }
+     .feature {
+      display: flex;
+      font-size: 1.5rem;
+       margin-top: 3rem;
+       margin-left: 15rem;
+       margin-right: 20rem;
+     } 
+     .feature-abt {
+      padding-right: 2rem;
+     }
+     .footer {
+      font-size: 2rem;
+      text-align: center;
+      margin-top: 2rem;
+     }
+     
